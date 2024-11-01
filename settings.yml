@@ -32,7 +32,7 @@ search:
   # Existing autocomplete backends: "dbpedia", "duckduckgo", "google", "yandex", "mwmbl",
   # "seznam", "startpage", "stract", "swisscows", "qwant", "wikipedia" - leave blank to turn it off
   # by default.
-  autocomplete: "google"
+  autocomplete: "duckduckgo"
   # minimun characters to type before autocompleter starts
   autocomplete_min: 1
   # backend for the favicon near URL in search results.
@@ -686,7 +686,7 @@ engines:
   - name: duckduckgo
     engine: duckduckgo
     shortcut: ddg
-    disabled: true
+    disabled: false
 
   - name: duckduckgo images
     engine: duckduckgo_extra
@@ -875,7 +875,7 @@ engines:
   - name: google
     engine: google
     shortcut: go
-    disabled: true
+    disabled: false
     # additional_tests:
     #   android: *test_android
 
