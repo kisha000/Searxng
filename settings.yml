@@ -237,7 +237,7 @@ outgoing:
 # Comment or un-comment plugin to activate / deactivate by default.
 #   https://docs.searxng.org/admin/settings/settings_plugins.html
 #
-# enabled_plugins:
+enabled_plugins:
 #   # these plugins are enabled if nothing is configured ..
   - 'Basic Calculator'
   - 'Hash plugin'
@@ -613,7 +613,7 @@ engines:
     url_query: link
     title_query: title
     content_query: snippet
-	title_html_to_text: true
+    title_html_to_text: true
     content_html_to_text: true
     disabled: true
     about:
